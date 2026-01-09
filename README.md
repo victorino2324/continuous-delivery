@@ -50,22 +50,39 @@ Con esto damos un paso más hacia una web más completa y dinámica, acercándon
 A continuacion presentaremos de forma detallada las funcionalidades de la web para esta verion 0.1:
 
 ![Main Screen](Images/MainScreen.png)
+
 - En esta pantalla se peude ver como se ven todos los quesos disponibles en la web pudiendo ver algunos detalles como el nombre y el precio por caja y al selecionarlos ver las pagina con todos sus detalles, tmabien se ven los botones de registrarse y de iniciar sesión, ademas de ne la parte izquierda el boton a la sección "Acerca de nosotros".
+- 
 ![Cheese Page](Images/MainScreen.png)
+
 - En esta pantalla se pueden ver los detalles de cada queso, admeas si eres un usuario registrado podras hacer pedidos por cjas, en caso de ser un administrador te saldra un boton de editar el cual todavia no funciona.
+- 
 ![LogIn](Images/MainScreen.png)
+
 - Formulario para introducir las credenciales de un ususario registrado o un administrador, este fomulario compruebas que los datos introducidos son correctos sino manda un mensaje de error en forma de alert.
+
 ![Register](Images/MainScreen.png)
+
 - Formulario para registrar un nuevo usuario registrado, se comprueba que los datos introducidos son validos para crear un nuevo usuario en caso de no ser asi se le notificara al usuario en forma de alert.
+
 ![About us](Images/MainScreen.png)
+
 - Pagina con poca funcionalidad, muestra informacion sobre la queseria de la que trata la web y la ubicacion utilizando un mapa de google maps.
+
 ![Profile](Images/MainScreen.png)
+
 - Pantalla que muestra el perfil de usurio con sus diferentes datos, las funcionalidades de editarlo todavia no estan disponibles.
+
 ![Mi order](Images/MainScreen.png)
+
 - Pantalla de Mi pedido de cada usuario registrado, aqui aparece un carrito con los diferentes quesos que el cliente ha añadido, se pueden borrar estos items del carrito y tambien hacer el pedido a la queseria desde esta pantalla.
+
 ![Orders](Images/MainScreen.png)
+
 - Desde esta pantalla los administradores pueden ver los pedidos realizados a la queseria, se ven paginados de 10 en 10.
+
 ![Clients](Images/MainScreen.png)
+
 - En esta pantalla los adminsitrdores pueder ver los diferentes clientes (usuarios registrados) de la web, se ven paginados de 10 en 10.
 
 ## Funcionalidades detalladas
@@ -80,12 +97,14 @@ A continuacion, mostramos las funcionalidades de la pagina web que han sido impl
 
 ### FUTURAS VERSIONES:
 - Intermediate Functionality.
+
 | Users | Functionalities |
 |----------|-----------------|
 | Registered users | -Edit their profile <br> -Change their credentials <br> -View, edit, and delete their reviews |
 | Administrators | -Ban users <br> -Process orders <br> -Generate invoices <br>  -Edit cheeses in the catalog <br> -Manage stock <br> -Add and remove cheeses |
 
 - Advanced Functionality.
+
 | Users | Functionalities |
 |----------|-----------------|
 | Administrators | -View charts <br> -Send emails to users with invoices <br> -Filter charts by cheeses and customers |
@@ -97,15 +116,15 @@ Antes de ejecutar la aplicación debes tener docker instalado en tu sistema:
 - Windows: Instalar DockerDesktop link
 - Linux: Instalar Docker Engine link y Docker Compose link
 
-[Docker Desktop](https://www.docker.com/products/docker-desktop/)
-[Docker Engine](https://docs.docker.com/engine/install/)
-[Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Docker Engine](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 
 ### Ejecutar la aplicación
 Ejecute los siguientes comando:
 
-caundo lo haya ejecutado accede a :
+Cuando lo haya ejecutado accede a :
 
 ### Acceso e información de la aplicación
 La web cuento cos 2 usuarios por defecto uno de tipo USER y otro de tipo ADMIN.
@@ -119,11 +138,14 @@ Utilizamos estos nombres al tratarse d elos dusños de la queseria, en un futuro
 #### Datos de ejemplo
 La web cuanta con una serie da datos por defecto para poder ver su funcionalidad:
 
--Usuarios
-User: Victor con todos los campos de un usuario registrado y con el carrito vacio.
-Admin: German con todos los campos de un administrador.
--Quesos
-la web cuanta con 5 tipos de quesos diferentes todos con sus atributos, todos con cjas para relaizar pedidos a excepcion del chevrett el cuarto queso.
+**Usuarios**
+
+- User: Victor con todos los campos de un usuario registrado y con el carrito vacio.
+- Admin: German con todos los campos de un administrador.
+**Quesos**
+  
+- La web cuanta con 5 tipos de quesos diferentes todos con sus atributos, todos con cjas para relaizar pedidos a excepcion del chevrett el cuarto queso.
+- No se han añadido ni reseñas ni pedidos inicialmente en esta verison y que se ha creido que no eran necesarios para mostrar la funcionalidad de la web.
 
 ## Guia de desarrollo
 
@@ -190,6 +212,7 @@ The Quesos Bartolomé application has a deployment architecture with independent
 
 #### Domain Model
 This diagram shows the persistent entities of the application.
+
 ![Main Screen](Images/MainScreen.png)
 
 #### API REST
@@ -199,10 +222,12 @@ Documentation: [DOC APIREST](https://raw.githack.com/codeurjc-students/2025-Ques
 
 #### Server Architecture
 “Server class diagram showing its layer separation and the responsibility of each layer.
+
 ![Main Screen](Images/MainScreen.png)
 
 #### Client Architecture
 Client class diagram showing its layer separation and the responsibility of each layer.
+
 ![Main Screen](Images/MainScreen.png)
 
 ### Quality Control
@@ -265,7 +290,7 @@ The development of the Quesos Bartolomé application has been carried out using 
 Throughout the process, functional versions of the system are delivered at regular intervals, focused on specific features and with continuous feedback from the project tutor.
 We show an image of the board:
 
-![Sonar1](../../Images/SonarQube1.png)
+![Imagen del tablero](../../Images/SonarQube1.png)
 
 #### Task Management
 
@@ -308,7 +333,9 @@ With each release, the Publish on Release workflow is triggered, which builds an
 
 ##### Version 0.1
 Date: January 2026
+
 **Features**
+
 Below are the features included in this version:
 
 - View cheeses and their specific characteristics.
