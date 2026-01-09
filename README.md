@@ -11,29 +11,52 @@ Y para los administradores: consultar tanto los pedidos realizados como los clie
 
 Con estas funcionalidades básicas damos el primer paso hacia lo que será nuestra web final. Gracias a ellas, los usuarios pueden empezar a familiarizarse con la plataforma, y los administradores pueden ir conociendo las futuras herramientas de gestión de producción con las que contará la web.
 ### Capturas
-![Main Screen](Images/MainScreen.png)
+![Main Screen](Images/MainPage.png)
+
 *Pantalla principal de la aplicación*
-![Cheese Page](Images/MainScreen.png)
+
+![Cheese Page](Images/CheesePage.png)
+
 *Pantalla detallada de un queso para un usuario registrado*
-![LogIn](Images/MainScreen.png)
+
+![LogIn](Images/LoginPage.png)
+
 *Pantalla con el formulario para inicar sesión*
-![Register](Images/MainScreen.png)
+
+![Register](Images/RegisterPage.png)
+
 *Pantalla con el formulario para registrarse*
-![About us](Images/MainScreen.png)
+
+![About us](Images/AboutUsPage.png)
+
 *Pantalla de acerca de nosotros*
-![Mi order](Images/MainScreen.png)
+
+![Mi order](Images/MyOrderPage.png)
+
 *Pantalla mi pedido de un usuario registrado(carrito)*
-![Profile](Images/MainScreen.png)
+
+![Profile](Images/ProfilePage.png)
+
 *Pantalla perfil de un usuario registrado*
-![Orders](Images/MainScreen.png)
+
+![Orders](Images/OrdersPage.png)
+
 *Pantalla del administrador con todos los pedidos realizados en la web*
-![Clients](Images/MainScreen.png)
+
+![Clients](Images/ClientsPage.png)
+
 *Pantalla del administrador con todos los clientes de la web*
+
+![Error](Images/ErrorPage.png)
+
+*Pantalla de error de la web*
 
 ### Estado de la web
 Esta es las version 0.1 de la web actualemnte este se encuentra en desarrollo pare mejorar y traer nuevas funcionalidades.
 
 ### Video
+
+[Video de YouTube](https://youtu.be/iXKCkcoqsYs)
 
 ### Siguientes funcionalidades
 Para la sigueinte version de la aplicacion se espera cubrir las siguientes funcionalidades:
@@ -43,45 +66,46 @@ Para la sigueinte version de la aplicacion se espera cubrir las siguientes funci
 - Administradores: Añadir, editar y borrar los quesos de la web, banear usuarios y visualizar gráficos básicos.
 
 Con esto damos un paso más hacia una web más completa y dinámica, acercándonos a la experiencia final que queremos ofrecer.
-### Indice
-- [Funcionalidades](#funcionalidades)
+### Índice
+- [Funcionalidades](#funcionalidades---version-01)
 
-## Funcionalidades version 0.1
+## Funcionalidades - Version 0.1
+
 A continuacion presentaremos de forma detallada las funcionalidades de la web para esta verion 0.1:
 
-![Main Screen](Images/MainScreen.png)
+![Main Screen](Images/MainPage.png)
 
 - En esta pantalla se peude ver como se ven todos los quesos disponibles en la web pudiendo ver algunos detalles como el nombre y el precio por caja y al selecionarlos ver las pagina con todos sus detalles, tmabien se ven los botones de registrarse y de iniciar sesión, ademas de ne la parte izquierda el boton a la sección "Acerca de nosotros".
 - 
-![Cheese Page](Images/MainScreen.png)
+![Cheese Page](Images/CheesePage.png)
 
 - En esta pantalla se pueden ver los detalles de cada queso, admeas si eres un usuario registrado podras hacer pedidos por cjas, en caso de ser un administrador te saldra un boton de editar el cual todavia no funciona.
 - 
-![LogIn](Images/MainScreen.png)
+![LogIn](Images/LoginPage.png)
 
 - Formulario para introducir las credenciales de un ususario registrado o un administrador, este fomulario compruebas que los datos introducidos son correctos sino manda un mensaje de error en forma de alert.
 
-![Register](Images/MainScreen.png)
+![Register](Images/RegisterPage.png)
 
 - Formulario para registrar un nuevo usuario registrado, se comprueba que los datos introducidos son validos para crear un nuevo usuario en caso de no ser asi se le notificara al usuario en forma de alert.
 
-![About us](Images/MainScreen.png)
+![About us](Images/AboutUsPage.png)
 
 - Pagina con poca funcionalidad, muestra informacion sobre la queseria de la que trata la web y la ubicacion utilizando un mapa de google maps.
 
-![Profile](Images/MainScreen.png)
+![Profile](Images/ProfilePage.png)
 
 - Pantalla que muestra el perfil de usurio con sus diferentes datos, las funcionalidades de editarlo todavia no estan disponibles.
 
-![Mi order](Images/MainScreen.png)
+![Mi order](Images/MyOrderPage.png)
 
 - Pantalla de Mi pedido de cada usuario registrado, aqui aparece un carrito con los diferentes quesos que el cliente ha añadido, se pueden borrar estos items del carrito y tambien hacer el pedido a la queseria desde esta pantalla.
 
-![Orders](Images/MainScreen.png)
+![Orders](Images/OrdersPage.png)
 
 - Desde esta pantalla los administradores pueden ver los pedidos realizados a la queseria, se ven paginados de 10 en 10.
 
-![Clients](Images/MainScreen.png)
+![Clients](Images/ClientsPage.png)
 
 - En esta pantalla los adminsitrdores pueder ver los diferentes clientes (usuarios registrados) de la web, se ven paginados de 10 en 10.
 
@@ -213,7 +237,7 @@ The Quesos Bartolomé application has a deployment architecture with independent
 #### Domain Model
 This diagram shows the persistent entities of the application.
 
-![Main Screen](Images/MainScreen.png)
+![DomainModel](Images/DomainModel.png)
 
 #### API REST
 The REST API is properly documented using OpenAPI.
@@ -223,12 +247,12 @@ Documentation: [DOC APIREST](https://raw.githack.com/codeurjc-students/2025-Ques
 #### Server Architecture
 “Server class diagram showing its layer separation and the responsibility of each layer.
 
-![Main Screen](Images/MainScreen.png)
+![ServerArchitecture](Images/ServerArchitecture.png)
 
 #### Client Architecture
 Client class diagram showing its layer separation and the responsibility of each layer.
 
-![Main Screen](Images/MainScreen.png)
+![ClientArchitecture](Images/ClientArchitecture.png)
 
 ### Quality Control
 To ensure the quality and reliability of the Quesos Bartolomé application, a series of automated tests have been conducted for both the client and the server. The tests include system (E2E), unit, and integration tests.
